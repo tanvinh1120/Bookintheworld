@@ -1,0 +1,17 @@
+
+.menu{
+list-style:none;
+display: inline-flex;
+}
+.menu li{
+font-size: 20px;
+margin:0 7px;
+text-align: center;
+color:black}
+.menu li a{
+text-decoration:none;
+color:black;
+transition: color 0.1s ease-in-out;
+}
+.menu li a:hover{color:darkblue;
+text-decoration: underline;}
